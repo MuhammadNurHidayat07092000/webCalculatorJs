@@ -1,0 +1,35 @@
+Kesempatan untuk submission Anda diterima akan lebih besar jika:
+Bebas berkreasi dan kreatif dalam mengerjakan submission.
+Memiliki tampilan yang menarik.
+Memanfaatkan media query dalam menerapkan layout yang responsif.
+Menerapkan JavaScript dalam memanipulasi DOM.
+
+
+
+Submission Anda akan ditolak jika:
+Tidak memenuhi kriteria yang sudah ditentukan.
+Menggunakan library Bootstrap, Materialize, Foundation ataupun library lain yang semacamnya untuk menyusun layout.
+Menggunakan template yang didapat dari internet.
+
+
+
+Kriteria penilaian submission:
+
+Bintang 1: Semua ketentuan terpenuhi, namun terdapat indikasi plagiat yaitu dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
+
+Bintang 2: Semua ketentuan terpenuhi, namun terdapat kekurangan pada tampilan aplikasi. Seperti tidak menerapkan responsibilitas, kombinasi warna tidak tepat, dsb.
+
+Bintang 3: Semua ketentuan terpenuhi, namun hanya mengikuti apa yang ada pada modul.
+
+Bintang 4: Semua ketentuan terpenuhi dan memiliki tampilan yang menarik.
+
+Bintang 5: Semua ketentuan terpenuhi, memiliki tampilan yang menarik serta responsif, dan menerapkan JavaScript dalam memanipulasi DOM dengan baik.
+
+
+
+Ketentuan:
+Di dalam folder proyek tersebut terdiri dari HTML, CSS, JS atau aset yang Anda gunakan dalam halaman web yang Anda buat.
+Mengirimkan submission dalam bentuk folder Proyek, yang diarsipkan dalam format ZIP.
+Tim reviewer akan mengulas submission Anda dalam waktu selambatnya 3 (tiga) hari kerja (tidak termasuk Sabtu, Minggu, dan hari libur nasional).
+Tidak disarankan untuk melakukan submit berkali-kali karena akan memperlama proses penilaian.
+Anda akan mendapat notifikasi hasil pengumpulan submission Anda via email, atau Anda dapat mengecek status submission pada akun Dicoding Anda.

@@ -1,0 +1,66 @@
+Namun bila kita ingin mengakses elemen secara spesifik, kita harus menggunakan method yang disediakan pada objek document seperti:
+
+Method
+
+Contoh
+
+Fungsi
+
+getElementById()
+
+document.getElementById(“display”);
+
+Mengembalikan elemen yang memiliki nilai id “display”.
+
+getElementsByName()
+
+document.getElementsByName(“button”)
+
+Mengembalikan banyak elemen (HTMLCollection) yang memiliki attribute name dengan nilai “button”.
+
+getElementsByClassName()
+
+document.getElementsByClassName(“button”)
+
+Mengembalikan banyak elemen (HTMLCollection) yang memiliki attribute class dengan nilai “button”.
+
+getElementsByTagName()
+
+document.getElementsByTagname(“div”)
+
+Mengembalikan banyak elemen (HTMLCollection) yang merupakan <div> elemen
+
+querySelector()
+
+document.querySelector(“.button”);
+
+Mengembalikan elemen pertama yang menerapkan class “button”.
+
+querySelectorAll()
+
+document.querySelectorAll(“.button”);
+
+Mengembalikan banyak elemen (HTMLCollection) yang menerapkan class “button”.
+
+Pada method di atas ada yang mengembalikan nilai HTML elemen secara tunggal, ada juga yang mengembalikan banyak nilai HTML elemen yang biasa disebut HTMLCollections.
+
+Contohnya kita gunakan method document.querySelector(“.button”); untuk mendapatkan nilai button, maka nilai yang didapatkan adalah elemen tunggal yang menerapkan class “button” pertama kali.
+
+201912062103115df08ee5c0649ef0f57f0a9b8ebe571d.gif
+
+Untuk mendapatkan seluruh elemen yang memiliki class “button” kita gunakan method document.querySelectorAll(“.button”); method tersebut akan mengembalikan banyak nilai elemen button.
+
+2019120621040755750e0141d8f2757c39ab8f5ea8b7fa.gif
+
+Karena HTMLCollection mirip seperti array yang dapat menampung banyak data di dalamnya, maka HTMLCollection juga memiliki karakteristik mirip seperti array. HTMLCollection memiliki properti length dan untuk mengakses nilai individual elemennya menggunakan indexing.20191206210449bb374b7f549b3d77ea9f2bc3f9af204e.gif
+
+Kita juga dapat melakukan perulangan menggunakan for of pada HTMLCollection:
+
+for(let item of buttons) {
+   console.log(item)
+}
+201912062105499849e545910dc65f215bbd11f6d40bc4.gif
+
+Dalam menggunakan method querySelector() tentu kita menggunakan query dalam menentukan target elemen. Untuk menargetkan elemen berdasarkan attribute class, kita gunakan tanda “.”, sedangkan jika kita menargetkan dengan menggunakan id, gunakan tanda “#”.
+
+Selain querySelector() masih terdapat method lain yang sudah disebutkan sebelumnya untuk mendapatkan elemen secara spesifik, Anda bisa mencoba sendiri method tersebut pada console browser, dan carilah perbedaan fungsi dari masing-masing method-nya.
